@@ -1,0 +1,49 @@
+# 🏏 ICC World Cup Match Analysis - PostgreSQL Project
+
+## 📋 Problem Statement
+
+Analyze the performance of cricket teams using the `iccworldcup` table containing match records. For each team, calculate:
+
+| Metric | Description |
+|--------|-------------|
+| **Total Matches Played** | Count of all matches where team appeared as team1 or team2 |
+| **Total Matches Won** | Count of matches won by the team |
+| **Total Matches Lost** | Count of matches lost by the team |
+
+**Output Requirements:**
+- Results ordered by matches won (descending)
+- Include all teams that participated in matches
+
+---
+
+## 🗃️ Database Setup
+
+### Table Schema
+```sql
+CREATE TABLE hundred_days_of_sql.iccworldcup (
+    team1 VARCHAR(20),
+    team2 VARCHAR(20),
+    winner VARCHAR(20)
+);
+```
+
+### Sample Data
+```sql
+INSERT INTO hundred_days_of_sql.iccworldcup (team1, team2, winner) VALUES
+('India', 'SL', 'India'),
+('SL', 'Aus', 'Aus'),
+('SA', 'Eng', 'Eng'),
+('Eng', 'NZ', 'NZ'),
+('Aus', 'India', 'India');
+```
+
+---
+
+## 📊 Expected Output Format
+
+| Team_Name | Matches_Played | Matches_Won | Matches_Lost |
+|-----------|----------------|-------------|--------------|
+|    ...    |    ...         |    ...      |     ...      |
+
+---
+
