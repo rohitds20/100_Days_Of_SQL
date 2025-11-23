@@ -47,3 +47,22 @@ INSERT INTO hundred_days_of_sql.iccworldcup (team1, team2, winner) VALUES
 
 ---
 
+## 💡 Solution Approach
+
+1. **Identify all unique teams** from both `team1` and `team2` columns
+2. **Count total matches** for each team (appearances in either column)
+3. **Count wins** where team name matches the `winner` column
+4. **Calculate losses** as `Total Matches - Wins`
+5. **Order results** by wins descending
+
+---
+
+## 🎯 Key Considerations
+
+- Teams can appear in either `team1` or `team2` columns
+- Use `UNION` or `CTE` to handle team appearances in both columns
+- Ensure accurate counting without double-counting matches
+- Handle cases where winner might be different from team1/team2 values
+
+---
+
