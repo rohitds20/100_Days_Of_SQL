@@ -43,7 +43,12 @@ INSERT INTO hundred_days_of_sql.iccworldcup (team1, team2, winner) VALUES
 
 | Team_Name | Matches_Played | Matches_Won | Matches_Lost |
 |-----------|----------------|-------------|--------------|
-|    ...    |    ...         |    ...      |     ...      |
+| India     | 2              | 2           | 0            |
+| Eng       | 2              | 1           | 1            |
+| NZ        | 1              | 1           | 0            |
+| Aus       | 2              | 1           | 1            |
+| SA        | 1              | 0           | 1            |
+| SL        | 2              | 0           | 2            |
 
 ---
 

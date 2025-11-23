@@ -45,7 +45,9 @@ INSERT INTO hundred_days_of_sql.employees (employee_id, employee_name, salary, m
 
 | Employee_ID | Employee_Name | Manager_Name | Employee_Salary | Manager_Salary |
 |-------------|---------------|--------------|-----------------|----------------|
-| ...         | ...           | ...          | ...             | ...            |
+| 1           | Ankit         | Rohit        | 10000           | 5000           |
+| 2           | Mohit         | Mudit        | 15000           | 12000          |
+| 3           | Vikas         | Rohit        | 10000           | 5000           |
 
 ---
 
